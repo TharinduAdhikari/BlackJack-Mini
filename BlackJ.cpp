@@ -257,7 +257,7 @@ void checker(string card){
         cout<<"You Lost!!!"<<endl;
         losses=losses+1;
     }
-    //Check the scores are equal or not
+    //Check the scores are equal or not.
     else if(dscore==21 && uscore==21){
         gotoxy(47,24);
         cout<<"Scores are Level!!!"<<endl;
